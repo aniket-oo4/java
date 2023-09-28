@@ -1,0 +1,41 @@
+first we need to add jar file which is stored in mysql connector in our project which process as follows ::
+		got to eclipse create new project class 
+		 1 click on project  then 
+		 2  then click on proprties 
+		3   then java build path 
+		4 module path 
+		5 add JARs.. if external not within same PACKAGE THEN 	 click ADD External JAR..
+		6 select appropriate path from the device 
+		7 apply and close 
+  import this file into programm 	
+		import java.sql.*;
+ here is  basic java program ::--
+			public static void main(String[] args) {
+	  String sqlq;
+	  int id;
+	  String name,gender;
+	  Scanner sc=new Scanner(System.in);
+		try {
+			Class.forName("com.mysql.cj.jdbc.Driver");//new Driver class 
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/school","root","1234");
+			Statement stmt=con.createStatement();
+			System.out.println("enter id : ");
+			id=sc.nextInt();
+			System.out.println("Enter name :");
+			sc.nextLine();
+			name=sc.nextLine();
+			System.out.println("Enter Gender :");
+			gender=sc.nextLine();
+			
+			System.out.println("Inserting records ");
+//			 sqlq="Insert into student values(id,name,Gender)";
+			 sqlq="INSERT INTO `student`(roll_no,Name,Gender) VALUE ('"+id+"','"+name+"','"+gender+"');";
+			stmt.executeUpdate(sqlq);
+			sqlq="Select* from student;";
+//			System.out.println(stmt.executeUpdate(sqlq));
+			stmt.executeUpdate(sqlq);
+		}catch(Exception e) {
+			System.out.println(e);
+		}
+		
+	}
