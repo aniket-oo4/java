@@ -1,0 +1,38 @@
+import java.util.*;
+class Teacher{
+
+  int Tid;
+  String des,tname,subject;
+  float salary;
+  void display()
+  {
+    System.out.prinlnt("ID ::"+Tid+"\n NAME: "+Tname+"\n Designation :"+des+"\n Subject :"+subject+"\n Salary :"+salary);
+  }
+}
+public class Teacher_main{
+
+ 
+public static void main(String args[])
+   {
+    int n;
+    System.out.println(" how many teachers you want ::");
+    Scanner sc=new  Scanner(System.in);
+    n=sc.nextInt();
+    Teacher []T=new Teacher(n);
+    Sshtem.out.println("enter details :")
+    for(int i=0;i<n;i++){
+        Teacher T[i]=new Teacher();
+        System.out.prinlnt("enter Id , name , dEsignation ,Subjrct ,SAlary ");
+        T[i].Tid=sc.nextInt();
+        T[i].Tname=sc.next();
+        T[i].des=sc.next();
+        T[i].subject=sc.next();
+        T[i].salary=sc.nextFloat();
+    } 
+    for(int i=0;i<n;i++)
+    {
+        if(T[i].subject.equals("java")||T[i].subject.equals("Java")||T[i].subject.equals("JAVA"))
+          T[i].display();
+    }
+  }
+}
