@@ -1,0 +1,71 @@
+Does the necessary technology exist to do what is been suggested
+
+ 
+Does the proposed equipment have the technical capacity for using the newsystem?
+
+ 
+Are there technical guarantees of accuracy, reliability and data security?
+
+ 
+The project is developed on Pentium III with 128 MB RAM.
+
+ 
+The environment required in the development of system is any windows platform.
+
+ 
+The observer pattern along with factory pattern will update the resultseventually.
+
+ 
+The language used in the development is JAVA J2SDK1.4.0, Servlets, JDBC,Tomcat Server and database as Oracle 8i.
+2.1.2
+ 
+Economical Feasibility
+To decide whether a project is economically feasible, to consider variousfactors as cost benefit analysis, long-term returns and maintenance costs.
+ 
+3
+2.2 FUNCTIONAL REQUIREMENTS
+ Functional requirement defines a function of a software system or its component.A function is described as a set of inputs, the behavior, and outputs. Functionalrequirements may be calculations, technical details, data manipulation and processing andother specific functionality that define what a system is supposed to accomplish.Behavioral requirements describing all the cases where the system uses the functionalrequirements are captured in use cases.
+NUMBER OF MODULES
+The system after careful analysis has been identified to be presented with thefollowing modules:The Modules involved are
+Event Management Module :
+The employees who can use the application their personal information, contactinformation and other information etc…This module consist of events information. All the information like type of the event,incharge of the event. These all information is maintained here.Here in this module application is maintaining the total information of the event and theresources. Like type of the resource, resource details and resource management.
+Event Task Manager Module :
+The module is having the information of the events and their task manager details.Events task are maintained here, the total details of the events and incharge detailsmaintained. In this module the information of the event and their details like, what are theevents are there and from which event and to which event the movement is going on ,which date , status of the event etc.
+Scheduling :
+This module consists of events information. All the information like type of theevent, in charge of the event. These all information is maintained here.
+
+ 
+4
+Security & Authentication Module :
+Security & Authentication module is main module which can provide security forentire processing of the system by using username, password, login, passwordmodifications etc.
+Reports Module :
+ In this module system can generate different type of the reports.
+Payment Module:
+In this module user can pay the amount.
+2.3 NON-FUNCTIONAL REQUIREMENTS
+Performance
+ 
+Requirements:
+ Performance is measured in terms of the output provided by the application.Requirement specification plays an important part in the analysis of a system. Only whenthe requirement specifications are properly given, it is possible to design a system, whichwill fit into required environment. It rests largely with the users of the existing system togive the requirement specifications because they are the people who finally use thesystem. This is because the requirements have to be known during the initial stages sothat the system can be designed according to those requirements. It is very difficult tochange the system once it has been designed and on the other hand designing a system,which does not cater to the requirements of the user, is of no use.The requirement specification for any system can be broadly stated as given below:
+
+ 
+The system should be able to interface with the existing system
+
+ 
+The system should be accurate
+
+ 
+The system should be better than the existing system
+ 
+5
+Reliability :
+In this system reliability means the mail which is send by the source must reachthe target user with any modification and accurate.
+Security :
+The web server and database server should be protected from hacking, virus etc
+Portability :
+The application will be developed using standard open source software (ExceptOracle) like Java, tomcat web server, Internet Explorer Browser etc these software willwork both on Windows and Linux o/s. Hence portability problems will not arise.
+Availability :
+This software will be available always.
+Maintainability :
+In this system the presentation layer is clearly separated from the service layer. Soany modification in future will be done with less efforts. The database will be running atthe server. Users access these forms by using the user-ids and the passwords.
+

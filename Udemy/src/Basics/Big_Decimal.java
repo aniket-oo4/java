@@ -1,7 +1,7 @@
 package Basics;
 import java.math.BigDecimal;// big decimal is use to handle problems of values having big decimal vlaues that means they having long precisions 
 public class Big_Decimal { 
-
+ 
 	public static void main(String args[])
 	{
 		double x=1.05;

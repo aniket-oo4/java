@@ -1,0 +1,17 @@
+package Practice_Set;
+import Mathematics.*;
+import java.util.*;
+class A3P5{
+
+          public static void main(String args[])
+		{
+                   int x,y;
+		Scanner sc=new Scanner(sSystem.in);
+		System.out.println("Enter number 1:");
+		x=sc.nextInt();
+		y=sc.nextInt();
+		Mathematics.maximum(x,y);
+		}
+
+
+}

@@ -1,7 +1,7 @@
 package OOP;
 import java.util.*;
 class student{
-	int id;
+	int id; 
 	String name;
 	student()
 	{

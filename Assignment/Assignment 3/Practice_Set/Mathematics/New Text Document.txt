@@ -1,0 +1,9 @@
+import java.util.*;
+ class Maximum{
+
+  static int maximum(int a,int b)
+	{
+          return Math.max(a,b);
+	}
+
+}
