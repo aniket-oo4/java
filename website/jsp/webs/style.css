@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.guessField {
+    width: 50px;
+}
+
+.guessSubmit {
+    width: 80px;
+}
+
+.guesses {
+    font-style: italic;
+}
+
+.lastResult {
+    font-size: 1.25em;
+}
+
+.lowOrHi {
+    font-style: italic;
+}
