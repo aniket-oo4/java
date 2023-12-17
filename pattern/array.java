@@ -1,4 +1,6 @@
-import java.util.Scanner;
+package pattern;
+
+import java.util.*;
 
 public class array {
      public static void main(String[] args) {
